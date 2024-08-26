@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="NewsTracker"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="8f31c652-b0cb-4194-890e-d3dd20d8f48b"
+        ClientSideComponentProperties="{&quot;listTitle&quot;:&quot;News&quot;,&quot;listViewTitle&quot;:&quot;Published News&quot;}">
+    </CustomAction>
+</Elements>

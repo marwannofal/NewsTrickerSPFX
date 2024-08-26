@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://menatechjo.sharepoint.com/sites/PrototypeSite",
+      "customActions": {
+        "8f31c652-b0cb-4194-890e-d3dd20d8f48b": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "listTitle": "News",
+            "listViewTitle": "Published News",
+            "bgColor": "#48c78e",
+            "textColor": "white"
+          }
+        }
+      }
+    }
+  }
+}
